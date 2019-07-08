@@ -38,7 +38,9 @@ Open any sample project in a code editor (like IntelliJ) and build on from there
 
 
 #### Credits
-A big thank you to the driving forces behing Scala.js - mainly [Sébastian Doeraene](https://github.com/sjrd) and 
+A big thank you to the driving forces behing Scala.js and its growing ecosystem - especially [Sébastian Doeraene](https://github.com/sjrd) and 
 [Li Haoyi](https://github.com/lihaoyi).
 
 Inspired by [play-samples](https://github.com/playframework/play-samples/). 
+
+
