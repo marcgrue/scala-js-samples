@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mg/code/scalajs/scala-js-samples/2-projects/dependsOn/foo/js/src/main/scala/Foo.scala:3:13: not found: value Bar[0m
+[0m[[0m[31merror[0m] [0m[0m    println(Bar.a)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

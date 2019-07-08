@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestShared, utest.runner.Fingerprint$@2f0f7240, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestJVM, utest.runner.Fingerprint$@2f0f7240, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mTests: 2, Passed: 2, Failed: 0[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestShared[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestJVM[0m

@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mg/code/scalajs/scalajs-cross-compile-example/native/target/scala-2.11/src_managed/nativetest/FrameworksMap.scala:4:67: object TestNative is not a member of package <root>[0m
+[0m[[0m[31merror[0m] [0m[0m  override val tests = Map[String, AnyRef]("TestNative" -> _root_.TestNative, "TestShared" -> _root_.TestShared)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mg/code/scalajs/scalajs-cross-compile-example/native/target/scala-2.11/src_managed/nativetest/FrameworksMap.scala:4:102: object TestShared is not a member of package <root>[0m
+[0m[[0m[31merror[0m] [0m[0m  override val tests = Map[String, AnyRef]("TestNative" -> _root_.TestNative, "TestShared" -> _root_.TestShared)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

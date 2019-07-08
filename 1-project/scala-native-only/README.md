@@ -1,0 +1,2 @@
+    sbt
+    barNative/compile

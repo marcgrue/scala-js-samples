@@ -1,0 +1,35 @@
+fooJS/run
+fooJS/test
+fooJVM/run
+fooJVM/test
+fooJNative/run
+fooNative/run
+fooNative/test
+test
+compile
+fooNative/test
+fooNative/run
+fooNative/test
+compile
+fooNative/test
+fooJVM/test
+fooNative/test
+compile
+fooNative/test
+test
+compile
+test
+fooNative/run
+fooJS/run
+    fooJVM/run
+    fooNative/run
+    fooJS/test
+    fooJVM/test
+    fooNative/test
+fooJS/run
+    fooJVM/run
+    fooNative/run
+    fooJS/test
+    fooJVM/test
+    fooNative/test
+test

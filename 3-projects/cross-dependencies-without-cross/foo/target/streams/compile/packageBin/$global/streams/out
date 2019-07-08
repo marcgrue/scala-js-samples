@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/mg/code/scalajs/scala-js-samples/3-projects/cross-dependencies-without-cross/foo/target/scala-2.12/foo_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Foo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/mg/code/scalajs/scala-js-samples/3-projects/cross-dependencies-without-cross/foo/target/scala-2.12/classes/Foo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Foo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/mg/code/scalajs/scala-js-samples/3-projects/cross-dependencies-without-cross/foo/target/scala-2.12/classes/Foo.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

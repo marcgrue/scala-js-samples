@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/mg/code/scalajs/scalajs-cross-compile-example/js/target/scala-2.12/foo-fastopt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 110905 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 177294 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 295843 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 79039 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 843 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 227380 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 315186 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 22688 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 4103 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 28008 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 43 -- invalidated: 51[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 114[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 140850 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 4 -- trees read: 257[0m

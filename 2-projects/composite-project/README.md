@@ -1,0 +1,10 @@
+    sbt
+    barJS/compile
+    barJVM/compile
+    barNative/compile
+    fooJS/run
+    fooJVM/run
+    fooNative/run
+    foobarJVM/test:compile
+    foobarNative/test:compile
+    foobarJS/test:compile
