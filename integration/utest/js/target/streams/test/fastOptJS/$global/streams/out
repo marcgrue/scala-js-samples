@@ -1,16 +1,16 @@
 [0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/mg/code/scalajs/scalajs-cross-compile-example/js/target/scala-2.12/foo-test-fastopt.js[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 90612 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 57657 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 149818 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: false[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 43356 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 3 methods.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 6434 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 53738 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 54513 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 4411 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: 59106 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 1372 -- invalidated: 1[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 4110 -- invalidated: 1[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 140774 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 9 -- invalidated: 1 -- trees read: 1[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 306760 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 309990 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 621441 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 126874 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 9076 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 1372002 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 1511304 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 140587 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 17443 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 158403 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 679 -- invalidated: 694[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 4111[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 1083670 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 4 -- invalidated: 6 -- trees read: 565[0m

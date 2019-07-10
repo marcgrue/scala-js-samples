@@ -1,3 +1,4 @@
+import duh.Shared
 import utest._
 
 // sbt> fooJVM/test

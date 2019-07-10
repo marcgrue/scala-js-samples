@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(duh.TestNative, DeserializedSubclassFingerprint(true,utest.TestSuite,true), false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(duh.TestShared, DeserializedSubclassFingerprint(true,utest.TestSuite,true), false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mTests: 2, Passed: 2, Failed: 0[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	duh.TestShared[0m
+[0m[[0m[0mdebug[0m] [0m[0m	duh.TestNative[0m

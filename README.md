@@ -25,8 +25,8 @@ First, clone this project with `git clone https://github.com/marcgrue/scala-js-s
 Then in each sample project's README file there's a list of commands that you can copy and then paste into the terminal 
 after navigating to each sample project:
 
-    > cd <sample-project-path>
-    > [paste commands...]
+    $ cd <sample-project-path>
+    $ [paste commands...]
 
 This will run all relevant commands to build/test the sample project and you can take notice of the results in the terminal and how it 
 relates to the project setup in the `build.sbt` file and project code.
@@ -38,7 +38,7 @@ Open any sample project in a code editor (like IntelliJ) and build on from there
 
 
 #### Credits
-A big thank you to the driving forces behing Scala.js and its growing ecosystem - especially [Sébastian Doeraene](https://github.com/sjrd) and 
+A big thank you to the driving forces behind Scala.js and its growing ecosystem - especially [Sébastian Doeraene](https://github.com/sjrd) and 
 [Li Haoyi](https://github.com/lihaoyi).
 
 Inspired by [play-samples](https://github.com/playframework/play-samples/). 

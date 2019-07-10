@@ -1,3 +1,5 @@
+import duh.Shared
+
 object MainJVM {
 
   // sbt> fooJVM/run

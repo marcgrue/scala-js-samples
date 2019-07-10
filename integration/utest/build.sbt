@@ -3,6 +3,7 @@ import sbtcrossproject.{crossProject, CrossType}
 name := "Foo root project"
 scalaVersion in ThisBuild := "2.12.8"
 
+
 lazy val foo = crossProject(JSPlatform, JVMPlatform, NativePlatform)
   // .crossType(CrossType.Full) // <-- Default CrossType, so no need to make explicit
   .in(file("."))
@@ -23,7 +24,7 @@ lazy val foo = crossProject(JSPlatform, JVMPlatform, NativePlatform)
     // Add JVM-specific settings here
   )
   .nativeSettings(
-    scalaVersion := "2.11.11",
+    scalaVersion := "2.11.12",
     nativeLinkStubs := true,
     // Add Native-specific settings here
   )

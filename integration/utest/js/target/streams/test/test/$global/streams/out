@@ -1,6 +1,6 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestShared, org.scalajs.testcommon.Serializer$FingerprintSerializer$$anon$5@17f72bf8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestJS, org.scalajs.testcommon.Serializer$FingerprintSerializer$$anon$5@5707e2f3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(duh.TestShared, org.scalajs.testcommon.Serializer$FingerprintSerializer$$anon$5@2c15d465, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestJS, org.scalajs.testcommon.Serializer$FingerprintSerializer$$anon$5@7d167c68, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0mTests: 2, Passed: 2, Failed: 0[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	TestShared[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TestJS[0m
+[0m[[0m[0mdebug[0m] [0m[0m	duh.TestShared[0m

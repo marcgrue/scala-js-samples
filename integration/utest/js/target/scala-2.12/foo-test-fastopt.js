@@ -2444,35 +2444,35 @@ function $f_scm_HashTable$HashUtils__improve__I__I__I($thiz, hcode, seed) {
   return (((i >>> seed) | 0) | (i << ((-seed) | 0)))
 }
 /** @constructor */
-function $c_LShared$() {
+function $c_Lduh_Shared$() {
   $c_O.call(this)
 }
-$c_LShared$.prototype = new $h_O();
-$c_LShared$.prototype.constructor = $c_LShared$;
+$c_Lduh_Shared$.prototype = new $h_O();
+$c_Lduh_Shared$.prototype.constructor = $c_Lduh_Shared$;
 /** @constructor */
-function $h_LShared$() {
+function $h_Lduh_Shared$() {
   /*<skip>*/
 }
-$h_LShared$.prototype = $c_LShared$.prototype;
-$c_LShared$.prototype.init___ = (function() {
+$h_Lduh_Shared$.prototype = $c_Lduh_Shared$.prototype;
+$c_Lduh_Shared$.prototype.init___ = (function() {
   return this
 });
-$c_LShared$.prototype.confirm__T__T = (function(platform) {
+$c_Lduh_Shared$.prototype.confirm__T__T = (function(platform) {
   return (platform + " --> shared")
 });
-var $d_LShared$ = new $TypeData().initClass({
-  LShared$: 0
-}, false, "Shared$", {
-  LShared$: 1,
+var $d_Lduh_Shared$ = new $TypeData().initClass({
+  Lduh_Shared$: 0
+}, false, "duh.Shared$", {
+  Lduh_Shared$: 1,
   O: 1
 });
-$c_LShared$.prototype.$classData = $d_LShared$;
-var $n_LShared$ = (void 0);
-function $m_LShared$() {
-  if ((!$n_LShared$)) {
-    $n_LShared$ = new $c_LShared$().init___()
+$c_Lduh_Shared$.prototype.$classData = $d_Lduh_Shared$;
+var $n_Lduh_Shared$ = (void 0);
+function $m_Lduh_Shared$() {
+  if ((!$n_Lduh_Shared$)) {
+    $n_Lduh_Shared$ = new $c_Lduh_Shared$().init___()
   };
-  return $n_LShared$
+  return $n_Lduh_Shared$
 }
 function $is_Ljava_io_Closeable(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljava_io_Closeable)))
@@ -16708,7 +16708,7 @@ $c_LTestJS$.prototype.init___ = (function() {
       var array$2 = [new $c_Lutest_framework_TestCallTree().init___F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1) {
         return (function() {
           $m_s_package$();
-          var value = $m_LShared$().confirm__T__T("Test js");
+          var value = $m_Lduh_Shared$().confirm__T__T("Test js");
           return new $c_s_util_Left().init___O(value)
         })
       })($this)))];
@@ -16753,25 +16753,25 @@ function $m_LTestJS$() {
   };
   return $n_LTestJS$
 }
-function $s_LTestShared$__clinit___() {
-  $m_sjs_reflect_Reflect$().registerLoadableModuleClass__T__jl_Class__sjs_js_Function0__V("TestShared$", $d_LTestShared$.getClassOf(), (function() {
-    return $m_LTestShared$()
+function $s_Lduh_TestShared$__clinit___() {
+  $m_sjs_reflect_Reflect$().registerLoadableModuleClass__T__jl_Class__sjs_js_Function0__V("duh.TestShared$", $d_Lduh_TestShared$.getClassOf(), (function() {
+    return $m_Lduh_TestShared$()
   }))
 }
 /** @constructor */
-function $c_LTestShared$() {
+function $c_Lduh_TestShared$() {
   $c_Lutest_TestSuite.call(this);
   this.tests$2 = null
 }
-$c_LTestShared$.prototype = new $h_Lutest_TestSuite();
-$c_LTestShared$.prototype.constructor = $c_LTestShared$;
+$c_Lduh_TestShared$.prototype = new $h_Lutest_TestSuite();
+$c_Lduh_TestShared$.prototype.constructor = $c_Lduh_TestShared$;
 /** @constructor */
-function $h_LTestShared$() {
+function $h_Lduh_TestShared$() {
   /*<skip>*/
 }
-$h_LTestShared$.prototype = $c_LTestShared$.prototype;
-$c_LTestShared$.prototype.init___ = (function() {
-  $n_LTestShared$ = this;
+$h_Lduh_TestShared$.prototype = $c_Lduh_TestShared$.prototype;
+$c_Lduh_TestShared$.prototype.init___ = (function() {
+  $n_Lduh_TestShared$ = this;
   var array = [];
   var array$1 = [new $c_Lutest_framework_Tree().init___O__sc_Seq("test", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))];
   this.tests$2 = new $c_Lutest_Tests().init___Lutest_framework_Tree__Lutest_framework_TestCallTree(new $c_Lutest_framework_Tree().init___O__sc_Seq("", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1)), new $c_Lutest_framework_TestCallTree().init___F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
@@ -16781,7 +16781,7 @@ $c_LTestShared$.prototype.init___ = (function() {
       var array$2 = [new $c_Lutest_framework_TestCallTree().init___F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1) {
         return (function() {
           $m_s_package$();
-          var value = $m_LShared$().confirm__T__T("Test shared");
+          var value = $m_Lduh_Shared$().confirm__T__T("Test shared");
           return new $c_s_util_Left().init___O(value)
         })
       })($this)))];
@@ -16807,24 +16807,24 @@ $c_LTestShared$.prototype.init___ = (function() {
   })(this))));
   return this
 });
-$c_LTestShared$.prototype.tests__Lutest_Tests = (function() {
+$c_Lduh_TestShared$.prototype.tests__Lutest_Tests = (function() {
   return this.tests$2
 });
-var $d_LTestShared$ = new $TypeData().initClass({
-  LTestShared$: 0
-}, false, "TestShared$", {
-  LTestShared$: 1,
+var $d_Lduh_TestShared$ = new $TypeData().initClass({
+  Lduh_TestShared$: 0
+}, false, "duh.TestShared$", {
+  Lduh_TestShared$: 1,
   Lutest_TestSuite: 1,
   O: 1,
   Lutest_framework_Executor: 1
 });
-$c_LTestShared$.prototype.$classData = $d_LTestShared$;
-var $n_LTestShared$ = (void 0);
-function $m_LTestShared$() {
-  if ((!$n_LTestShared$)) {
-    $n_LTestShared$ = new $c_LTestShared$().init___()
+$c_Lduh_TestShared$.prototype.$classData = $d_Lduh_TestShared$;
+var $n_Lduh_TestShared$ = (void 0);
+function $m_Lduh_TestShared$() {
+  if ((!$n_Lduh_TestShared$)) {
+    $n_Lduh_TestShared$ = new $c_Lduh_TestShared$().init___()
   };
-  return $n_LTestShared$
+  return $n_Lduh_TestShared$
 }
 /** @constructor */
 function $c_Ljava_io_InputStream() {
@@ -48194,7 +48194,7 @@ var $d_scm_ArrayBuffer = new $TypeData().initClass({
 });
 $c_scm_ArrayBuffer.prototype.$classData = $d_scm_ArrayBuffer;
 $s_LTestJS$__clinit___();
-$s_LTestShared$__clinit___();
+$s_Lduh_TestShared$__clinit___();
 $s_Lutest_runner_Framework__clinit___();
 $s_Lutest_runner_MillFramework__clinit___();
 $e.org = ($e.org || {});

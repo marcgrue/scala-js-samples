@@ -1,3 +1,5 @@
+import duh.Shared
+
 object MainJS {
 
   // sbt> fooJS/run

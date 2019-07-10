@@ -1149,7 +1149,7 @@ $c_LMainJS$.prototype.init___ = (function() {
   return this
 });
 $c_LMainJS$.prototype.main__AT__V = (function(args) {
-  var x = $m_LShared$().confirm__T__T("Run js");
+  var x = $m_Lduh_Shared$().confirm__T__T("Run js");
   var this$2 = $m_s_Console$();
   var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
   this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"))
@@ -1169,35 +1169,35 @@ function $m_LMainJS$() {
   return $n_LMainJS$
 }
 /** @constructor */
-function $c_LShared$() {
+function $c_Lduh_Shared$() {
   $c_O.call(this)
 }
-$c_LShared$.prototype = new $h_O();
-$c_LShared$.prototype.constructor = $c_LShared$;
+$c_Lduh_Shared$.prototype = new $h_O();
+$c_Lduh_Shared$.prototype.constructor = $c_Lduh_Shared$;
 /** @constructor */
-function $h_LShared$() {
+function $h_Lduh_Shared$() {
   /*<skip>*/
 }
-$h_LShared$.prototype = $c_LShared$.prototype;
-$c_LShared$.prototype.init___ = (function() {
+$h_Lduh_Shared$.prototype = $c_Lduh_Shared$.prototype;
+$c_Lduh_Shared$.prototype.init___ = (function() {
   return this
 });
-$c_LShared$.prototype.confirm__T__T = (function(platform) {
+$c_Lduh_Shared$.prototype.confirm__T__T = (function(platform) {
   return (platform + " --> shared")
 });
-var $d_LShared$ = new $TypeData().initClass({
-  LShared$: 0
-}, false, "Shared$", {
-  LShared$: 1,
+var $d_Lduh_Shared$ = new $TypeData().initClass({
+  Lduh_Shared$: 0
+}, false, "duh.Shared$", {
+  Lduh_Shared$: 1,
   O: 1
 });
-$c_LShared$.prototype.$classData = $d_LShared$;
-var $n_LShared$ = (void 0);
-function $m_LShared$() {
-  if ((!$n_LShared$)) {
-    $n_LShared$ = new $c_LShared$().init___()
+$c_Lduh_Shared$.prototype.$classData = $d_Lduh_Shared$;
+var $n_Lduh_Shared$ = (void 0);
+function $m_Lduh_Shared$() {
+  if ((!$n_Lduh_Shared$)) {
+    $n_Lduh_Shared$ = new $c_Lduh_Shared$().init___()
   };
-  return $n_LShared$
+  return $n_Lduh_Shared$
 }
 /** @constructor */
 function $c_jl_Class() {
