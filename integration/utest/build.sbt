@@ -1,7 +1,7 @@
-import sbtcrossproject.{crossProject, CrossType}
+import sbtcrossproject.CrossPlugin.autoImport.crossProject
 
 name := "Foo root project"
-scalaVersion in ThisBuild := "2.12.8"
+scalaVersion in ThisBuild := "2.13.4"
 
 
 lazy val foo = crossProject(JSPlatform, JVMPlatform, NativePlatform)
@@ -11,7 +11,7 @@ lazy val foo = crossProject(JSPlatform, JVMPlatform, NativePlatform)
     name := "foo",
     version := "0.1-SNAPSHOT",
     libraryDependencies ++= Seq(
-      "com.lihaoyi" %%% "utest" % "0.7.1" % "test",
+      "com.lihaoyi" %%% "utest" % "0.7.7" % "test",
     ),
     testFrameworks += new TestFramework("utest.runner.Framework"),
   )
@@ -24,7 +24,7 @@ lazy val foo = crossProject(JSPlatform, JVMPlatform, NativePlatform)
     // Add JVM-specific settings here
   )
   .nativeSettings(
-    scalaVersion := "2.11.12",
+    scalaVersion := "2.13.4",
     nativeLinkStubs := true,
     // Add Native-specific settings here
   )
